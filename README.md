@@ -1,3 +1,19 @@
+## Project Setup Details
+
+```
+STEP 1: clone repo. (git clone repo-url)
+STEP 2: run command root directory -> composer install
+STEP 3: configuration database/mail-smtp root directory .env file
+STEP 4: run command: php artisan config:cache && php artisan cache:clear
+STEP 4: run command: php artisan migrate
+STEP 5: run command: php artisan db:seed
+STEP 6: run command: php artisan serve
+
+User Credentials: testuser@gmail.com / test@123
+
+```
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
